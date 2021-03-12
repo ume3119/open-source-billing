@@ -1,0 +1,725 @@
+=== puma startup: 2021-03-06 15:55:33 +0000 ===
+[2481] - Worker 0 (pid: 2491) booted, phase: 0
+[2481] - Gracefully shutting down workers...
+[2481] === puma shutdown: 2021-03-06 15:55:45 +0000 ===
+[2481] - Goodbye!
+Exiting
+=== puma startup: 2021-03-06 16:03:48 +0000 ===
+[3069] - Worker 0 (pid: 3077) booted, phase: 0
+[3069] - Gracefully shutting down workers...
+=== puma startup: 2021-03-06 16:40:23 +0000 ===
+[2416] - Worker 0 (pid: 2423) booted, phase: 0
+[2416] - Gracefully shutting down workers...
+[2416] === puma shutdown: 2021-03-06 16:40:44 +0000 ===
+[2416] - Goodbye!
+Exiting
+=== puma startup: 2021-03-06 16:50:13 +0000 ===
+[2650] - Worker 0 (pid: 2657) booted, phase: 0
+[2650] ! Terminating timed out worker: 2657
+[2650] - Worker 0 (pid: 2679) booted, phase: 0
+[2650] - Gracefully shutting down workers...
+[2650] === puma shutdown: 2021-03-06 17:12:51 +0000 ===
+[2650] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 13:27:06 +0000 ===
+[48490] - Worker 0 (pid: 48497) booted, phase: 0
+[48490] ! Terminating timed out worker: 48497
+[48490] - Worker 0 (pid: 48805) booted, phase: 0
+[48490] - Gracefully shutting down workers...
+[48490] === puma shutdown: 2021-03-12 13:48:33 +0000 ===
+[48490] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 13:49:16 +0000 ===
+[49174] - Worker 0 (pid: 49179) booted, phase: 0
+[49174] - Gracefully shutting down workers...
+=== puma startup: 2021-03-12 13:49:35 +0000 ===
+=== puma startup: 2021-03-12 13:49:35 +0000 ===
+=== puma startup: 2021-03-12 13:49:39 +0000 ===
+=== puma startup: 2021-03-12 13:49:39 +0000 ===
+Exiting
+=== puma startup: 2021-03-12 15:10:30 +0000 ===
+[1432] - Worker 0 (pid: 1441) booted, phase: 0
+Started GET "/" for 92.97.83.108 at 2021-03-12 15:10:43 +0000
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block (2 levels) in <top (required)> at /home/ubuntu/open-source-billing/config/routes.rb:407)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block (2 levels) in <top (required)> at /home/ubuntu/open-source-billing/config/routes.rb:407)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SessionStore::Session Update (0.4ms)[0m  [1m[33mUPDATE "sessions" SET "data" = $1, "updated_at" = $2 WHERE "sessions"."id" = $3[0m  [["data", "BAh7B0kiE3VzZXJfcmV0dXJuX3RvBjoGRVRJIgYvBjsAVEkiCmZsYXNoBjsA\nVHsHSSIMZGlzY2FyZAY7AFRbAEkiDGZsYXNoZXMGOwBUewZJIgphbGVydAY7\nAEZJIjZZb3UgbmVlZCB0byBzaWduIGluIG9yIHNpZ24gdXAgYmVmb3JlIGNv\nbnRpbnVpbmcuBjsAVA==\n"], ["updated_at", "2021-03-12 15:10:44.778789"], ["id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/en/users/sign_in" for 92.97.83.108 at 2021-03-12 15:10:44 +0000
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering devise/sessions/new.html.erb within layouts/login
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/devise/sessions/new.html.erb:39
+  Rendered devise/sessions/new.html.erb within layouts/login (Duration: 81.6ms | Allocations: 3042)
+[Webpacker] Compiling...
+[1432] - Gracefully shutting down workers...
+[Webpacker] Compilation failed:
+
+Completed 500 Internal Server Error in 18862ms (ActiveRecord: 4.4ms | Allocations: 652552)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/ubuntu/open-source-billing/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     8:   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+     9:   <link href="https://fonts.googleapis.com/css?family=Dosis:400,500" rel="stylesheet">
+    10:   <%= stylesheet_link_tag "toastr.min.css", :media => "all" %>
+    11:   <%= javascript_pack_tag "application" %>
+    12:   <%= csrf_meta_tags %>
+    13:   <%#= javascript_include_tag "toastr.min.js" %>
+    14: </head>
+  
+app/views/layouts/login.html.erb:11
+[1432] === puma shutdown: 2021-03-12 15:11:04 +0000 ===
+[1432] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 15:31:56 +0000 ===
+[1723] - Worker 0 (pid: 1729) booted, phase: 0
+[1723] - Gracefully shutting down workers...
+[1723] === puma shutdown: 2021-03-12 15:32:51 +0000 ===
+[1723] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 15:36:24 +0000 ===
+[1901] - Worker 0 (pid: 1907) booted, phase: 0
+[1901] - Gracefully shutting down workers...
+[1901] === puma shutdown: 2021-03-12 15:36:40 +0000 ===
+[1901] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 15:39:03 +0000 ===
+[2009] - Worker 0 (pid: 2014) booted, phase: 0
+[2009] - Gracefully shutting down workers...
+[2009] === puma shutdown: 2021-03-12 15:39:29 +0000 ===
+[2009] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 15:44:05 +0000 ===
+[2340] - Worker 0 (pid: 2346) booted, phase: 0
+[2340] - Gracefully shutting down workers...
+[2340] === puma shutdown: 2021-03-12 15:51:02 +0000 ===
+[2340] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 16:00:22 +0000 ===
+[2543] - Worker 0 (pid: 2549) booted, phase: 0
+[2543] - Gracefully shutting down workers...
+[2543] === puma shutdown: 2021-03-12 16:00:38 +0000 ===
+[2543] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 16:01:36 +0000 ===
+[2597] - Worker 0 (pid: 2603) booted, phase: 0
+[2597] - Gracefully shutting down workers...
+[2597] === puma shutdown: 2021-03-12 16:02:03 +0000 ===
+[2597] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 16:13:07 +0000 ===
+[2815] - Worker 0 (pid: 2821) booted, phase: 0
+[2815] - Gracefully shutting down workers...
+[2815] === puma shutdown: 2021-03-12 16:13:19 +0000 ===
+[2815] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 16:21:07 +0000 ===
+[3161] - Worker 0 (pid: 3167) booted, phase: 0
+[3161] - Gracefully shutting down workers...
+[3161] === puma shutdown: 2021-03-12 16:29:04 +0000 ===
+[3161] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 16:29:18 +0000 ===
+[3225] - Worker 0 (pid: 3238) booted, phase: 0
+Started GET "/en/users/sign_in" for 92.97.83.108 at 2021-03-12 16:29:26 +0000
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block (2 levels) in <top (required)> at /home/ubuntu/open-source-billing/config/routes.rb:407)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block (2 levels) in <top (required)> at /home/ubuntu/open-source-billing/config/routes.rb:407)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering devise/sessions/new.html.erb within layouts/login
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/devise/sessions/new.html.erb:39
+  Rendered devise/sessions/new.html.erb within layouts/login (Duration: 9.1ms | Allocations: 3270)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ubuntu/open-source-billing/public/packs
+[Webpacker] Hash: 8dce6527623d59d8211f
+Version: webpack 4.43.0
+Time: 8716ms
+Built at: 03/12/2021 4:29:39 PM
+                                              Asset        Size  Chunks                                Chunk Names
+                  js/cocoon-e5e16eb5c993877eb7ce.js    3.11 KiB       0  [emitted] [immutable]         cocoon
+               js/cocoon-e5e16eb5c993877eb7ce.js.br    1.15 KiB          [emitted]                     
+               js/cocoon-e5e16eb5c993877eb7ce.js.gz    1.36 KiB          [emitted]                     
+              js/cocoon-e5e16eb5c993877eb7ce.js.map    13.1 KiB       0  [emitted] [dev]               cocoon
+           js/cocoon-e5e16eb5c993877eb7ce.js.map.br     3.8 KiB          [emitted]                     
+           js/cocoon-e5e16eb5c993877eb7ce.js.map.gz    4.25 KiB          [emitted]                     
+                  js/custom-33b9421e1556cd9dc293.js    12.2 KiB       1  [emitted] [immutable]         custom
+               js/custom-33b9421e1556cd9dc293.js.br    2.26 KiB          [emitted]                     
+               js/custom-33b9421e1556cd9dc293.js.gz    2.62 KiB          [emitted]                     
+              js/custom-33b9421e1556cd9dc293.js.map    27.2 KiB       1  [emitted] [dev]               custom
+           js/custom-33b9421e1556cd9dc293.js.map.br    5.76 KiB          [emitted]                     
+           js/custom-33b9421e1556cd9dc293.js.map.gz    6.49 KiB          [emitted]                     
+          js/email_template-c03b625772cd015bbb23.js    2.08 KiB       2  [emitted] [immutable]         email_template
+       js/email_template-c03b625772cd015bbb23.js.br   798 bytes          [emitted]                     
+       js/email_template-c03b625772cd015bbb23.js.gz   913 bytes          [emitted]                     
+      js/email_template-c03b625772cd015bbb23.js.map    7.78 KiB       2  [emitted] [dev]               email_template
+   js/email_template-c03b625772cd015bbb23.js.map.br    2.53 KiB          [emitted]                     
+   js/email_template-c03b625772cd015bbb23.js.map.gz     2.8 KiB          [emitted]                     
+            js/fullcalender-796c2b174dc4e5630aa5.js     549 KiB       3  [emitted] [immutable]  [big]  fullcalender
+js/fullcalender-796c2b174dc4e5630aa5.js.LICENSE.txt    14.7 KiB          [emitted]                     
+         js/fullcalender-796c2b174dc4e5630aa5.js.br     100 KiB          [emitted]                     
+         js/fullcalender-796c2b174dc4e5630aa5.js.gz     122 KiB          [emitted]                     
+        js/fullcalender-796c2b174dc4e5630aa5.js.map    1.65 MiB       3  [emitted] [dev]               fullcalender
+     js/fullcalender-796c2b174dc4e5630aa5.js.map.br     308 KiB          [emitted]              [big]  
+     js/fullcalender-796c2b174dc4e5630aa5.js.map.gz     380 KiB          [emitted]              [big]  
+                  js/jquery-800c18d14331be1b54c4.js     230 KiB       4  [emitted] [immutable]         jquery
+      js/jquery-800c18d14331be1b54c4.js.LICENSE.txt   713 bytes          [emitted]                     
+               js/jquery-800c18d14331be1b54c4.js.br    53.3 KiB          [emitted]                     
+               js/jquery-800c18d14331be1b54c4.js.gz    76.2 KiB          [emitted]                     
+              js/jquery-800c18d14331be1b54c4.js.map     868 KiB       4  [emitted] [dev]               jquery
+           js/jquery-800c18d14331be1b54c4.js.map.br     218 KiB          [emitted]                     
+           js/jquery-800c18d14331be1b54c4.js.map.gz     253 KiB          [emitted]              [big]  
+                    js/logs-7a77712238ae3edaec36.js    3.25 KiB       5  [emitted] [immutable]         logs
+                 js/logs-7a77712238ae3edaec36.js.br    1.02 KiB          [emitted]                     
+                 js/logs-7a77712238ae3edaec36.js.gz    1.18 KiB          [emitted]                     
+                js/logs-7a77712238ae3edaec36.js.map    10.5 KiB       5  [emitted] [dev]               logs
+             js/logs-7a77712238ae3edaec36.js.map.br    3.12 KiB          [emitted]                     
+             js/logs-7a77712238ae3edaec36.js.map.gz    3.51 KiB          [emitted]                     
+           js/nested_fields-fce77bc4128c55ef2130.js    2.36 KiB       6  [emitted] [immutable]         nested_fields
+        js/nested_fields-fce77bc4128c55ef2130.js.br   945 bytes          [emitted]                     
+        js/nested_fields-fce77bc4128c55ef2130.js.gz    1.08 KiB          [emitted]                     
+       js/nested_fields-fce77bc4128c55ef2130.js.map    9.06 KiB       6  [emitted] [dev]               nested_fields
+    js/nested_fields-fce77bc4128c55ef2130.js.map.br    2.92 KiB          [emitted]                     
+    js/nested_fields-fce77bc4128c55ef2130.js.map.gz    3.31 KiB          [emitted]                     
+                   js/rails-341922996f31d5525b61.js    13.3 KiB       7  [emitted] [immutable]         rails
+                js/rails-341922996f31d5525b61.js.br     3.4 KiB          [emitted]                     
+                js/rails-341922996f31d5525b61.js.gz    3.78 KiB          [emitted]                     
+               js/rails-341922996f31d5525b61.js.map    42.9 KiB       7  [emitted] [dev]               rails
+            js/rails-341922996f31d5525b61.js.map.br      10 KiB          [emitted]                     
+            js/rails-341922996f31d5525b61.js.map.gz    11.3 KiB          [emitted]                     
+                  js/search-cd43f06dae85dacfcad3.js    1.08 KiB       8  [emitted] [immutable]         search
+               js/search-cd43f06dae85dacfcad3.js.br   488 bytes          [emitted]                     
+               js/search-cd43f06dae85dacfcad3.js.gz   576 bytes          [emitted]                     
+              js/search-cd43f06dae85dacfcad3.js.map    4.92 KiB       8  [emitted] [dev]               search
+           js/search-cd43f06dae85dacfcad3.js.map.br    1.71 KiB          [emitted]                     
+           js/search-cd43f06dae85dacfcad3.js.map.gz     1.9 KiB          [emitted]                     
+                   js/timer-7b90d1efa3ba2a90b9aa.js  1000 bytes       9  [emitted] [immutable]         timer
+                js/timer-7b90d1efa3ba2a90b9aa.js.br   470 bytes          [emitted]                     
+                js/timer-7b90d1efa3ba2a90b9aa.js.gz   510 bytes          [emitted]                     
+               js/timer-7b90d1efa3ba2a90b9aa.js.map    4.55 KiB       9  [emitted] [dev]               timer
+            js/timer-7b90d1efa3ba2a90b9aa.js.map.br    1.54 KiB          [emitted]                     
+            js/timer-7b90d1efa3ba2a90b9aa.js.map.gz    1.72 KiB          [emitted]                     
+                  js/toastr-9f9b8b2cfa3050dca844.js      94 KiB      10  [emitted] [immutable]         toastr
+      js/toastr-9f9b8b2cfa3050dca844.js.LICENSE.txt   489 bytes          [emitted]                     
+               js/toastr-9f9b8b2cfa3050dca844.js.br    29.4 KiB          [emitted]                     
+               js/toastr-9f9b8b2cfa3050dca844.js.gz    32.4 KiB          [emitted]                     
+              js/toastr-9f9b8b2cfa3050dca844.js.map     485 KiB      10  [emitted] [dev]               toastr
+           js/toastr-9f9b8b2cfa3050dca844.js.map.br     124 KiB          [emitted]                     
+           js/toastr-9f9b8b2cfa3050dca844.js.map.gz     145 KiB          [emitted]                     
+                                      manifest.json    3.41 KiB          [emitted]                     
+                                   manifest.json.br   519 bytes          [emitted]                     
+                                   manifest.json.gz   602 bytes          [emitted]                     
+Entrypoint cocoon = js/cocoon-e5e16eb5c993877eb7ce.js js/cocoon-e5e16eb5c993877eb7ce.js.map
+Entrypoint custom = js/custom-33b9421e1556cd9dc293.js js/custom-33b9421e1556cd9dc293.js.map
+Entrypoint email_template = js/email_template-c03b625772cd015bbb23.js js/email_template-c03b625772cd015bbb23.js.map
+Entrypoint fullcalender [big] = js/fullcalender-796c2b174dc4e5630aa5.js js/fullcalender-796c2b174dc4e5630aa5.js.map
+Entrypoint jquery = js/jquery-800c18d14331be1b54c4.js js/jquery-800c18d14331be1b54c4.js.map
+Entrypoint logs = js/logs-7a77712238ae3edaec36.js js/logs-7a77712238ae3edaec36.js.map
+Entrypoint nested_fields = js/nested_fields-fce77bc4128c55ef2130.js js/nested_fields-fce77bc4128c55ef2130.js.map
+Entrypoint rails = js/rails-341922996f31d5525b61.js js/rails-341922996f31d5525b61.js.map
+Entrypoint search = js/search-cd43f06dae85dacfcad3.js js/search-cd43f06dae85dacfcad3.js.map
+Entrypoint timer = js/timer-7b90d1efa3ba2a90b9aa.js js/timer-7b90d1efa3ba2a90b9aa.js.map
+Entrypoint toastr = js/toastr-9f9b8b2cfa3050dca844.js js/toastr-9f9b8b2cfa3050dca844.js.map
+[135] ./app/javascript/packs/jquery.validate.js 40.9 KiB {4} [built]
+[136] ./app/javascript/packs/cocoon.js 3.99 KiB {0} [built]
+[137] ./app/javascript/packs/custom.js 11.8 KiB {1} [built]
+[138] ./app/javascript/packs/email_template.js 1.37 KiB {2} [built]
+[139] ./app/javascript/packs/fullcalender.js 148 KiB {3} [built]
+[141] multi ./app/javascript/packs/jquery.css3caching.js ./app/javascript/packs/jquery.min.js ./app/javascript/packs/jquery.validate.additional-methods.js ./app/javascript/packs/jquery.validate.js 64 bytes {4} [built]
+[142] ./app/javascript/packs/jquery.css3caching.js 994 bytes {4} [built]
+[143] ./app/javascript/packs/jquery.min.js 97.8 KiB {4} [built]
+[144] ./app/javascript/packs/jquery.validate.additional-methods.js 46.2 KiB {4} [built]
+[145] ./app/javascript/packs/logs.js 2.68 KiB {5} [built]
+[146] ./app/javascript/packs/nested_fields.js 1.89 KiB {6} [built]
+[147] ./app/javascript/packs/rails.validations.js 17.8 KiB {7} [built]
+[148] ./app/javascript/packs/search.js 158 bytes {8} [built]
+[149] ./app/javascript/packs/timer.js 1.03 KiB {9} [built]
+[150] ./app/javascript/packs/toastr.min.js 5.16 KiB {10} [built]
+    + 137 hidden modules
+
+WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  js/fullcalender-796c2b174dc4e5630aa5.js (549 KiB)
+  js/jquery-800c18d14331be1b54c4.js.map.gz (253 KiB)
+  js/fullcalender-796c2b174dc4e5630aa5.js.map.gz (380 KiB)
+  js/fullcalender-796c2b174dc4e5630aa5.js.map.br (308 KiB)
+
+WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  fullcalender (549 KiB)
+      js/fullcalender-796c2b174dc4e5630aa5.js
+
+
+WARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+
+Completed 500 Internal Server Error in 10972ms (ActiveRecord: 10.0ms | Allocations: 30229)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/ubuntu/open-source-billing/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "cocoon.js": "/packs/js/cocoon-e5e16eb5c993877eb7ce.js",
+  "cocoon.js.map": "/packs/js/cocoon-e5e16eb5c993877eb7ce.js.map",
+  "custom.js": "/packs/js/custom-33b9421e1556cd9dc293.js",
+  "custom.js.map": "/packs/js/custom-33b9421e1556cd9dc293.js.map",
+  "email_template.js": "/packs/js/email_template-c03b625772cd015bbb23.js",
+  "email_template.js.map": "/packs/js/email_template-c03b625772cd015bbb23.js.map",
+  "entrypoints": {
+    "cocoon": {
+      "js": [
+        "/packs/js/cocoon-e5e16eb5c993877eb7ce.js"
+      ],
+      "js.map": [
+        "/packs/js/cocoon-e5e16eb5c993877eb7ce.js.map"
+      ]
+    },
+    "custom": {
+      "js": [
+        "/packs/js/custom-33b9421e1556cd9dc293.js"
+      ],
+      "js.map": [
+        "/packs/js/custom-33b9421e1556cd9dc293.js.map"
+      ]
+    },
+    "email_template": {
+      "js": [
+        "/packs/js/email_template-c03b625772cd015bbb23.js"
+      ],
+      "js.map": [
+        "/packs/js/email_template-c03b625772cd015bbb23.js.map"
+      ]
+    },
+    "fullcalender": {
+      "js": [
+        "/packs/js/fullcalender-796c2b174dc4e5630aa5.js"
+      ],
+      "js.map": [
+        "/packs/js/fullcalender-796c2b174dc4e5630aa5.js.map"
+      ]
+    },
+    "jquery": {
+      "js": [
+        "/packs/js/jquery-800c18d14331be1b54c4.js"
+      ],
+      "js.map": [
+        "/packs/js/jquery-800c18d14331be1b54c4.js.map"
+      ]
+    },
+    "logs": {
+      "js": [
+        "/packs/js/logs-7a77712238ae3edaec36.js"
+      ],
+      "js.map": [
+        "/packs/js/logs-7a77712238ae3edaec36.js.map"
+      ]
+    },
+    "nested_fields": {
+      "js": [
+        "/packs/js/nested_fields-fce77bc4128c55ef2130.js"
+      ],
+      "js.map": [
+        "/packs/js/nested_fields-fce77bc4128c55ef2130.js.map"
+      ]
+    },
+    "rails": {
+      "js": [
+        "/packs/js/rails-341922996f31d5525b61.js"
+      ],
+      "js.map": [
+        "/packs/js/rails-341922996f31d5525b61.js.map"
+      ]
+    },
+    "search": {
+      "js": [
+        "/packs/js/search-cd43f06dae85dacfcad3.js"
+      ],
+      "js.map": [
+        "/packs/js/search-cd43f06dae85dacfcad3.js.map"
+      ]
+    },
+    "timer": {
+      "js": [
+        "/packs/js/timer-7b90d1efa3ba2a90b9aa.js"
+      ],
+      "js.map": [
+        "/packs/js/timer-7b90d1efa3ba2a90b9aa.js.map"
+      ]
+    },
+    "toastr": {
+      "js": [
+        "/packs/js/toastr-9f9b8b2cfa3050dca844.js"
+      ],
+      "js.map": [
+        "/packs/js/toastr-9f9b8b2cfa3050dca844.js.map"
+      ]
+    }
+  },
+  "fullcalender.js": "/packs/js/fullcalender-796c2b174dc4e5630aa5.js",
+  "fullcalender.js.map": "/packs/js/fullcalender-796c2b174dc4e5630aa5.js.map",
+  "jquery.js": "/packs/js/jquery-800c18d14331be1b54c4.js",
+  "jquery.js.map": "/packs/js/jquery-800c18d14331be1b54c4.js.map",
+  "logs.js": "/packs/js/logs-7a77712238ae3edaec36.js",
+  "logs.js.map": "/packs/js/logs-7a77712238ae3edaec36.js.map",
+  "nested_fields.js": "/packs/js/nested_fields-fce77bc4128c55ef2130.js",
+  "nested_fields.js.map": "/packs/js/nested_fields-fce77bc4128c55ef2130.js.map",
+  "rails.js": "/packs/js/rails-341922996f31d5525b61.js",
+  "rails.js.map": "/packs/js/rails-341922996f31d5525b61.js.map",
+  "search.js": "/packs/js/search-cd43f06dae85dacfcad3.js",
+  "search.js.map": "/packs/js/search-cd43f06dae85dacfcad3.js.map",
+  "timer.js": "/packs/js/timer-7b90d1efa3ba2a90b9aa.js",
+  "timer.js.map": "/packs/js/timer-7b90d1efa3ba2a90b9aa.js.map",
+  "toastr.js": "/packs/js/toastr-9f9b8b2cfa3050dca844.js",
+  "toastr.js.map": "/packs/js/toastr-9f9b8b2cfa3050dca844.js.map"
+}
+):
+     8:   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+     9:   <link href="https://fonts.googleapis.com/css?family=Dosis:400,500" rel="stylesheet">
+    10:   <%= stylesheet_link_tag "toastr.min.css", :media => "all" %>
+    11:   <%= javascript_pack_tag "application" %>
+    12:   <%= csrf_meta_tags %>
+    13:   <%#= javascript_include_tag "toastr.min.js" %>
+    14: </head>
+  
+app/views/layouts/login.html.erb:11
+[3225] - Gracefully shutting down workers...
+[3225] === puma shutdown: 2021-03-12 16:31:27 +0000 ===
+[3225] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 16:33:20 +0000 ===
+[3452] - Worker 0 (pid: 3457) booted, phase: 0
+[3452] - Gracefully shutting down workers...
+[3452] === puma shutdown: 2021-03-12 16:33:31 +0000 ===
+[3452] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 16:33:41 +0000 ===
+[3472] - Worker 0 (pid: 3482) booted, phase: 0
+Started GET "/en/users/sign_in" for 92.97.83.108 at 2021-03-12 16:33:43 +0000
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block (2 levels) in <top (required)> at /home/ubuntu/open-source-billing/config/routes.rb:407)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block (2 levels) in <top (required)> at /home/ubuntu/open-source-billing/config/routes.rb:407)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering devise/sessions/new.html.erb within layouts/login
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/devise/sessions/new.html.erb:39
+  Rendered devise/sessions/new.html.erb within layouts/login (Duration: 9.3ms | Allocations: 3270)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 9.9ms | Allocations: 28603)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/ubuntu/open-source-billing/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "cocoon.js": "/packs/js/cocoon-e5e16eb5c993877eb7ce.js",
+  "cocoon.js.map": "/packs/js/cocoon-e5e16eb5c993877eb7ce.js.map",
+  "custom.js": "/packs/js/custom-33b9421e1556cd9dc293.js",
+  "custom.js.map": "/packs/js/custom-33b9421e1556cd9dc293.js.map",
+  "email_template.js": "/packs/js/email_template-c03b625772cd015bbb23.js",
+  "email_template.js.map": "/packs/js/email_template-c03b625772cd015bbb23.js.map",
+  "entrypoints": {
+    "cocoon": {
+      "js": [
+        "/packs/js/cocoon-e5e16eb5c993877eb7ce.js"
+      ],
+      "js.map": [
+        "/packs/js/cocoon-e5e16eb5c993877eb7ce.js.map"
+      ]
+    },
+    "custom": {
+      "js": [
+        "/packs/js/custom-33b9421e1556cd9dc293.js"
+      ],
+      "js.map": [
+        "/packs/js/custom-33b9421e1556cd9dc293.js.map"
+      ]
+    },
+    "email_template": {
+      "js": [
+        "/packs/js/email_template-c03b625772cd015bbb23.js"
+      ],
+      "js.map": [
+        "/packs/js/email_template-c03b625772cd015bbb23.js.map"
+      ]
+    },
+    "fullcalender": {
+      "js": [
+        "/packs/js/fullcalender-796c2b174dc4e5630aa5.js"
+      ],
+      "js.map": [
+        "/packs/js/fullcalender-796c2b174dc4e5630aa5.js.map"
+      ]
+    },
+    "jquery": {
+      "js": [
+        "/packs/js/jquery-800c18d14331be1b54c4.js"
+      ],
+      "js.map": [
+        "/packs/js/jquery-800c18d14331be1b54c4.js.map"
+      ]
+    },
+    "logs": {
+      "js": [
+        "/packs/js/logs-7a77712238ae3edaec36.js"
+      ],
+      "js.map": [
+        "/packs/js/logs-7a77712238ae3edaec36.js.map"
+      ]
+    },
+    "nested_fields": {
+      "js": [
+        "/packs/js/nested_fields-fce77bc4128c55ef2130.js"
+      ],
+      "js.map": [
+        "/packs/js/nested_fields-fce77bc4128c55ef2130.js.map"
+      ]
+    },
+    "rails": {
+      "js": [
+        "/packs/js/rails-341922996f31d5525b61.js"
+      ],
+      "js.map": [
+        "/packs/js/rails-341922996f31d5525b61.js.map"
+      ]
+    },
+    "search": {
+      "js": [
+        "/packs/js/search-cd43f06dae85dacfcad3.js"
+      ],
+      "js.map": [
+        "/packs/js/search-cd43f06dae85dacfcad3.js.map"
+      ]
+    },
+    "timer": {
+      "js": [
+        "/packs/js/timer-7b90d1efa3ba2a90b9aa.js"
+      ],
+      "js.map": [
+        "/packs/js/timer-7b90d1efa3ba2a90b9aa.js.map"
+      ]
+    },
+    "toastr": {
+      "js": [
+        "/packs/js/toastr-9f9b8b2cfa3050dca844.js"
+      ],
+      "js.map": [
+        "/packs/js/toastr-9f9b8b2cfa3050dca844.js.map"
+      ]
+    }
+  },
+  "fullcalender.js": "/packs/js/fullcalender-796c2b174dc4e5630aa5.js",
+  "fullcalender.js.map": "/packs/js/fullcalender-796c2b174dc4e5630aa5.js.map",
+  "jquery.js": "/packs/js/jquery-800c18d14331be1b54c4.js",
+  "jquery.js.map": "/packs/js/jquery-800c18d14331be1b54c4.js.map",
+  "logs.js": "/packs/js/logs-7a77712238ae3edaec36.js",
+  "logs.js.map": "/packs/js/logs-7a77712238ae3edaec36.js.map",
+  "nested_fields.js": "/packs/js/nested_fields-fce77bc4128c55ef2130.js",
+  "nested_fields.js.map": "/packs/js/nested_fields-fce77bc4128c55ef2130.js.map",
+  "rails.js": "/packs/js/rails-341922996f31d5525b61.js",
+  "rails.js.map": "/packs/js/rails-341922996f31d5525b61.js.map",
+  "search.js": "/packs/js/search-cd43f06dae85dacfcad3.js",
+  "search.js.map": "/packs/js/search-cd43f06dae85dacfcad3.js.map",
+  "timer.js": "/packs/js/timer-7b90d1efa3ba2a90b9aa.js",
+  "timer.js.map": "/packs/js/timer-7b90d1efa3ba2a90b9aa.js.map",
+  "toastr.js": "/packs/js/toastr-9f9b8b2cfa3050dca844.js",
+  "toastr.js.map": "/packs/js/toastr-9f9b8b2cfa3050dca844.js.map"
+}
+):
+     8:   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+     9:   <link href="https://fonts.googleapis.com/css?family=Dosis:400,500" rel="stylesheet">
+    10:   <%= stylesheet_link_tag "toastr.min.css", :media => "all" %>
+    11:   <%= javascript_pack_tag "application" %>
+    12:   <%= csrf_meta_tags %>
+    13:   <%#= javascript_include_tag "toastr.min.js" %>
+    14: </head>
+  
+app/views/layouts/login.html.erb:11
+[3472] - Gracefully shutting down workers...
+[3472] === puma shutdown: 2021-03-12 16:34:34 +0000 ===
+[3472] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 16:44:04 +0000 ===
+[3770] - Worker 0 (pid: 3779) booted, phase: 0
+Started GET "/en/users/sign_in" for 92.97.83.108 at 2021-03-12 16:45:34 +0000
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block (2 levels) in <top (required)> at /home/ubuntu/open-source-billing/config/routes.rb:407)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block (2 levels) in <top (required)> at /home/ubuntu/open-source-billing/config/routes.rb:407)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering devise/sessions/new.html.erb within layouts/login
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/devise/sessions/new.html.erb:39
+  Rendered devise/sessions/new.html.erb within layouts/login (Duration: 9.1ms | Allocations: 3270)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 10.6ms | Allocations: 28603)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/ubuntu/open-source-billing/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "cocoon.js": "/packs/js/cocoon-e5e16eb5c993877eb7ce.js",
+  "cocoon.js.map": "/packs/js/cocoon-e5e16eb5c993877eb7ce.js.map",
+  "custom.js": "/packs/js/custom-33b9421e1556cd9dc293.js",
+  "custom.js.map": "/packs/js/custom-33b9421e1556cd9dc293.js.map",
+  "email_template.js": "/packs/js/email_template-c03b625772cd015bbb23.js",
+  "email_template.js.map": "/packs/js/email_template-c03b625772cd015bbb23.js.map",
+  "entrypoints": {
+    "cocoon": {
+      "js": [
+        "/packs/js/cocoon-e5e16eb5c993877eb7ce.js"
+      ],
+      "js.map": [
+        "/packs/js/cocoon-e5e16eb5c993877eb7ce.js.map"
+      ]
+    },
+    "custom": {
+      "js": [
+        "/packs/js/custom-33b9421e1556cd9dc293.js"
+      ],
+      "js.map": [
+        "/packs/js/custom-33b9421e1556cd9dc293.js.map"
+      ]
+    },
+    "email_template": {
+      "js": [
+        "/packs/js/email_template-c03b625772cd015bbb23.js"
+      ],
+      "js.map": [
+        "/packs/js/email_template-c03b625772cd015bbb23.js.map"
+      ]
+    },
+    "fullcalender": {
+      "js": [
+        "/packs/js/fullcalender-796c2b174dc4e5630aa5.js"
+      ],
+      "js.map": [
+        "/packs/js/fullcalender-796c2b174dc4e5630aa5.js.map"
+      ]
+    },
+    "jquery": {
+      "js": [
+        "/packs/js/jquery-800c18d14331be1b54c4.js"
+      ],
+      "js.map": [
+        "/packs/js/jquery-800c18d14331be1b54c4.js.map"
+      ]
+    },
+    "logs": {
+      "js": [
+        "/packs/js/logs-7a77712238ae3edaec36.js"
+      ],
+      "js.map": [
+        "/packs/js/logs-7a77712238ae3edaec36.js.map"
+      ]
+    },
+    "nested_fields": {
+      "js": [
+        "/packs/js/nested_fields-fce77bc4128c55ef2130.js"
+      ],
+      "js.map": [
+        "/packs/js/nested_fields-fce77bc4128c55ef2130.js.map"
+      ]
+    },
+    "rails": {
+      "js": [
+        "/packs/js/rails-341922996f31d5525b61.js"
+      ],
+      "js.map": [
+        "/packs/js/rails-341922996f31d5525b61.js.map"
+      ]
+    },
+    "search": {
+      "js": [
+        "/packs/js/search-cd43f06dae85dacfcad3.js"
+      ],
+      "js.map": [
+        "/packs/js/search-cd43f06dae85dacfcad3.js.map"
+      ]
+    },
+    "timer": {
+      "js": [
+        "/packs/js/timer-7b90d1efa3ba2a90b9aa.js"
+      ],
+      "js.map": [
+        "/packs/js/timer-7b90d1efa3ba2a90b9aa.js.map"
+      ]
+    },
+    "toastr": {
+      "js": [
+        "/packs/js/toastr-9f9b8b2cfa3050dca844.js"
+      ],
+      "js.map": [
+        "/packs/js/toastr-9f9b8b2cfa3050dca844.js.map"
+      ]
+    }
+  },
+  "fullcalender.js": "/packs/js/fullcalender-796c2b174dc4e5630aa5.js",
+  "fullcalender.js.map": "/packs/js/fullcalender-796c2b174dc4e5630aa5.js.map",
+  "jquery.js": "/packs/js/jquery-800c18d14331be1b54c4.js",
+  "jquery.js.map": "/packs/js/jquery-800c18d14331be1b54c4.js.map",
+  "logs.js": "/packs/js/logs-7a77712238ae3edaec36.js",
+  "logs.js.map": "/packs/js/logs-7a77712238ae3edaec36.js.map",
+  "nested_fields.js": "/packs/js/nested_fields-fce77bc4128c55ef2130.js",
+  "nested_fields.js.map": "/packs/js/nested_fields-fce77bc4128c55ef2130.js.map",
+  "rails.js": "/packs/js/rails-341922996f31d5525b61.js",
+  "rails.js.map": "/packs/js/rails-341922996f31d5525b61.js.map",
+  "search.js": "/packs/js/search-cd43f06dae85dacfcad3.js",
+  "search.js.map": "/packs/js/search-cd43f06dae85dacfcad3.js.map",
+  "timer.js": "/packs/js/timer-7b90d1efa3ba2a90b9aa.js",
+  "timer.js.map": "/packs/js/timer-7b90d1efa3ba2a90b9aa.js.map",
+  "toastr.js": "/packs/js/toastr-9f9b8b2cfa3050dca844.js",
+  "toastr.js.map": "/packs/js/toastr-9f9b8b2cfa3050dca844.js.map"
+}
+):
+     8:   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+     9:   <link href="https://fonts.googleapis.com/css?family=Dosis:400,500" rel="stylesheet">
+    10:   <%= stylesheet_link_tag "toastr.min.css", :media => "all" %>
+    11:   <%= javascript_pack_tag "application" %>
+    12:   <%= csrf_meta_tags %>
+    13:   <%#= javascript_include_tag "toastr.min.js" %>
+    14: </head>
+  
+app/views/layouts/login.html.erb:11
+[3770] - Gracefully shutting down workers...
+[3770] === puma shutdown: 2021-03-12 16:45:44 +0000 ===
+[3770] - Goodbye!
+Exiting
+=== puma startup: 2021-03-12 16:46:02 +0000 ===
+[3812] - Worker 0 (pid: 3818) booted, phase: 0
+[3812] - Gracefully shutting down workers...
+[3812] === puma shutdown: 2021-03-12 16:46:40 +0000 ===
+[3812] - Goodbye!
+Exiting

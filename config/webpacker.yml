@@ -9,8 +9,6 @@ default: &default
   webpack_compile_output: true
 
   # Additional paths webpack should lookup modules
-  additional_paths: []
-
   # ['app/assets', 'engine/foo/app/assets']
   resolved_paths: []
 
@@ -35,9 +33,6 @@ default: &default
     - .woff2
 
   extensions:
-    - .js.erb
-    - .erb
-    - .coffee
     - .mjs
     - .js
     - .sass
@@ -88,10 +83,10 @@ production:
   <<: *default
 
   # Production depends on precompilation of packs prior to booting for performance.
-  compile: false
+  # compile: false
 
   # Extract and emit a css file
   extract_css: true
 
   # Cache manifest.json for performance
-  cache_manifest: true
+  #  cache_manifest: true

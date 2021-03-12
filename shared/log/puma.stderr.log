@@ -1,0 +1,272 @@
+=== puma startup: 2021-03-06 15:55:33 +0000 ===
+=== puma startup: 2021-03-06 16:03:48 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/attribute_methods/dirty.rb:102: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activemodel-6.0.2.2/lib/active_model/attribute_mutation_tracker.rb:45: warning: The called method `changed?' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-rails-3.2.1/lib/sprockets/rails/helper.rb:355: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-4.0.2/lib/sprockets/base.rb:118: warning: The called method `[]' is defined here
+=== puma startup: 2021-03-06 16:40:23 +0000 ===
+=== puma startup: 2021-03-06 16:50:13 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/attribute_methods/dirty.rb:102: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activemodel-6.0.2.2/lib/active_model/attribute_mutation_tracker.rb:45: warning: The called method `changed?' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-rails-3.2.1/lib/sprockets/rails/helper.rb:355: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-4.0.2/lib/sprockets/base.rb:118: warning: The called method `[]' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/attribute_methods/dirty.rb:102: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activemodel-6.0.2.2/lib/active_model/attribute_mutation_tracker.rb:45: warning: The called method `changed?' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-rails-3.2.1/lib/sprockets/rails/helper.rb:355: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-4.0.2/lib/sprockets/base.rb:118: warning: The called method `[]' is defined here
+=== puma startup: 2021-03-12 13:27:06 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/attribute_methods/dirty.rb:102: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activemodel-6.0.2.2/lib/active_model/attribute_mutation_tracker.rb:45: warning: The called method `changed?' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-rails-3.2.1/lib/sprockets/rails/helper.rb:355: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-4.0.2/lib/sprockets/base.rb:118: warning: The called method `[]' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/attribute_methods/dirty.rb:102: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activemodel-6.0.2.2/lib/active_model/attribute_mutation_tracker.rb:45: warning: The called method `changed?' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-rails-3.2.1/lib/sprockets/rails/helper.rb:355: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-4.0.2/lib/sprockets/base.rb:118: warning: The called method `[]' is defined here
+=== puma startup: 2021-03-12 13:49:16 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/attribute_methods/dirty.rb:102: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activemodel-6.0.2.2/lib/active_model/attribute_mutation_tracker.rb:45: warning: The called method `changed?' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-rails-3.2.1/lib/sprockets/rails/helper.rb:355: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-4.0.2/lib/sprockets/base.rb:118: warning: The called method `[]' is defined here
+=== puma startup: 2021-03-12 13:49:35 +0000 ===
+=== puma startup: 2021-03-12 13:49:35 +0000 ===
+=== puma startup: 2021-03-12 13:49:39 +0000 ===
+=== puma startup: 2021-03-12 13:49:39 +0000 ===
+=== puma startup: 2021-03-12 15:10:30 +0000 ===
+/home/ubuntu/open-source-billing/vendor/engines/osb_api/app/api/v1/invoice_api.rb:412: warning: key :message is duplicated and overwritten on line 412
+/home/ubuntu/open-source-billing/app/helpers/invoices_helper.rb:358: warning: key :class is duplicated and overwritten on line 358
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/attribute_methods/dirty.rb:102: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activemodel-6.0.2.2/lib/active_model/attribute_mutation_tracker.rb:45: warning: The called method `changed?' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-rails-3.2.1/lib/sprockets/rails/helper.rb:355: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-4.0.2/lib/sprockets/base.rb:118: warning: The called method `[]' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/railties/collection_cache_association_loading.rb:7: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/railties/collection_cache_association_loading.rb:12: warning: The called method `relation_from_options' is defined here
+=== puma startup: 2021-03-12 15:31:56 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/attribute_methods/dirty.rb:102: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activemodel-6.0.2.2/lib/active_model/attribute_mutation_tracker.rb:45: warning: The called method `changed?' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-rails-3.2.1/lib/sprockets/rails/helper.rb:355: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-4.0.2/lib/sprockets/base.rb:118: warning: The called method `[]' is defined here
+=== puma startup: 2021-03-12 15:36:24 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-rails-3.2.1/lib/sprockets/rails/helper.rb:355: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/sprockets-4.0.2/lib/sprockets/base.rb:118: warning: The called method `[]' is defined here
+=== puma startup: 2021-03-12 15:39:03 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/attribute_methods/dirty.rb:102: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activemodel-6.0.2.2/lib/active_model/attribute_mutation_tracker.rb:45: warning: The called method `changed?' is defined here
+=== puma startup: 2021-03-12 15:44:05 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+=== puma startup: 2021-03-12 16:00:22 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/attribute_methods/dirty.rb:102: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activemodel-6.0.2.2/lib/active_model/attribute_mutation_tracker.rb:45: warning: The called method `changed?' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+=== puma startup: 2021-03-12 16:01:36 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+=== puma startup: 2021-03-12 16:13:07 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+=== puma startup: 2021-03-12 16:21:07 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/attribute_methods/dirty.rb:102: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activemodel-6.0.2.2/lib/active_model/attribute_mutation_tracker.rb:45: warning: The called method `changed?' is defined here
+=== puma startup: 2021-03-12 16:29:18 +0000 ===
+/home/ubuntu/open-source-billing/vendor/engines/osb_api/app/api/v1/invoice_api.rb:412: warning: key :message is duplicated and overwritten on line 412
+/home/ubuntu/open-source-billing/app/helpers/invoices_helper.rb:358: warning: key :class is duplicated and overwritten on line 358
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/railties/collection_cache_association_loading.rb:7: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/railties/collection_cache_association_loading.rb:12: warning: The called method `relation_from_options' is defined here
+=== puma startup: 2021-03-12 16:33:20 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+=== puma startup: 2021-03-12 16:33:41 +0000 ===
+/home/ubuntu/open-source-billing/vendor/engines/osb_api/app/api/v1/invoice_api.rb:412: warning: key :message is duplicated and overwritten on line 412
+/home/ubuntu/open-source-billing/app/helpers/invoices_helper.rb:358: warning: key :class is duplicated and overwritten on line 358
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/railties/collection_cache_association_loading.rb:7: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/railties/collection_cache_association_loading.rb:12: warning: The called method `relation_from_options' is defined here
+=== puma startup: 2021-03-12 16:44:04 +0000 ===
+/home/ubuntu/open-source-billing/vendor/engines/osb_api/app/api/v1/invoice_api.rb:412: warning: key :message is duplicated and overwritten on line 412
+/home/ubuntu/open-source-billing/app/helpers/invoices_helper.rb:358: warning: key :class is duplicated and overwritten on line 358
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/transactions.rb:212: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:274: warning: The called method `transaction' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/persistence.rb:470: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/timestamp.rb:127: warning: The called method `create_or_update' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/railties/collection_cache_association_loading.rb:7: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/railties/collection_cache_association_loading.rb:12: warning: The called method `relation_from_options' is defined here
+=== puma startup: 2021-03-12 16:46:02 +0000 ===
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/unbound_template.rb:24: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionview-6.0.2.2/lib/action_view/template.rb:130: warning: The called method `initialize' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/abstract_controller/helpers.rb:67: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/actionpack-6.0.2.2/lib/action_controller/metal/request_forgery_protection.rb:313: warning: The called method `form_authenticity_token' is defined here
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation/delegation.rb:115: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/ubuntu/.rvm/gems/ruby-2.7.1/gems/activerecord-6.0.2.2/lib/active_record/relation.rb:27: warning: The called method `initialize' is defined here
